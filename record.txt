@@ -1,0 +1,24 @@
+data: train on 1/5 100h, test on 1/2 test set
+learning rate: 5e-4
+warmup step: 50
+batch size: 8
+gradient accumulation: 16
+
+
+tiny, base, small, medium, large
+
+base: 
+	whole model, whole data 100h: ~94% wer
+	encoder freeze, decoder train: 105.32% wer after 2 epoch
+	encoder train, decoder freeze: 135.74% wer after 2 epoch
+	freeze first 3 layers of encoder and decoder: 145.77% wer after 3 epoch
+
+
+small: 
+	whole model, whole data 100h: ~54% wer
+	encoder freeze, decoder train: 74.97% wer after 3 epoch
+	encoder train, decoder freeze: 84.34% wer after 3 epoch
+	freeze first 3 layers of encoder and decoder: 95.94% wer after 4 epoch
+
+
+

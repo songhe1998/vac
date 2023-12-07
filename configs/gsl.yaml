@@ -1,0 +1,4 @@
+dataset_root: ../GSL_continuous
+dict_path: ./preprocess/gsl/gloss_dict.npy
+evaluation_dir: ./evaluation/slr_eval
+evaluation_prefix: gsl-groundtruth

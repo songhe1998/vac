@@ -1,0 +1,466 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "Untitled"}, "version": 1}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "e5-cse-314-01"}, "version": 3}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 4}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stdout"]}, "version": 5}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stderr"]}, "version": 6}
+{"obj": {"type": "AssignString", "path": ["source_code", "entrypoint"], "value": "train.py"}, "version": 7}
+{"obj": {"type": "UploadFileSet", "path": ["source_code", "files"], "file_globs": ["/home/iot/sxw5765/vac_gsl/iso_cnn/train.py"], "reset": "False"}, "version": 8}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "cpu"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 9}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "cpu"]}, "version": 10}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "memory"], "min": 0.0, "max": 15.595283508300781, "unit": "GB"}, "version": 11}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "memory"]}, "version": 12}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 13}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu"]}, "version": 14}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_memory"], "min": 0.0, "max": 47.45440673828125, "unit": "GB"}, "version": 15}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_memory"]}, "version": 16}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 11.2, "step": null, "ts": 1652649744.7288237}]}, "version": 17}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 3.3431968688964844, "step": null, "ts": 1652649744.7288237}]}, "version": 18}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 0.36444091796875, "step": null, "ts": 1652649744.7288237}]}, "version": 19}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "train", "step": null, "ts": 1652649744.8268285}]}, "version": 20}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649744.8282695}]}, "version": 21}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "34994", "step": null, "ts": 1652649744.8295162}]}, "version": 22}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649744.8308766}]}, "version": 23}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Apply training transform.", "step": null, "ts": 1652649744.832374}]}, "version": 24}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649744.8338299}]}, "version": 25}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "", "step": null, "ts": 1652649744.8369205}]}, "version": 26}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649744.8391652}]}, "version": 27}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "train", "step": null, "ts": 1652649744.8503997}]}, "version": 28}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649744.851701}]}, "version": 29}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "3499", "step": null, "ts": 1652649744.8879251}]}, "version": 30}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649744.889488}]}, "version": 31}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Apply training transform.", "step": null, "ts": 1652649744.8908803}]}, "version": 32}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649744.8920758}]}, "version": 33}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "", "step": null, "ts": 1652649744.8934793}]}, "version": 34}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649744.8948298}]}, "version": 35}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "number of test data: ", "step": null, "ts": 1652649744.896267}]}, "version": 36}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649744.897578}]}, "version": 37}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "3499", "step": null, "ts": 1652649744.8986619}]}, "version": 38}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649744.8999412}]}, "version": 39}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "number of train data: ", "step": null, "ts": 1652649744.9012573}]}, "version": 40}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649744.9024014}]}, "version": 41}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "34994", "step": null, "ts": 1652649744.9034827}]}, "version": 42}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649744.9046006}]}, "version": 43}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "/home/iot/sxw5765/vac_gsl/iso_cnn/../modules/tconv.py:44: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.\nTo keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/BinaryOps.cpp:590.)\n  feat_len //= 2\n", "step": null, "ts": 1652649748.0196292}]}, "version": 44}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649748.021884}]}, "version": 45}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649748.0231807}]}, "version": 46}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649748.024368}]}, "version": 47}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649748.0254748}]}, "version": 48}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.768126487731934, "step": null, "ts": 1652649748.027661}]}, "version": 49}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649748.9396226}]}, "version": 50}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649748.941304}]}, "version": 51}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649748.942572}]}, "version": 52}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649748.9438286}]}, "version": 53}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.939250946044922, "step": null, "ts": 1652649748.9452486}]}, "version": 54}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649749.9518416}]}, "version": 55}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649749.9538107}]}, "version": 56}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649749.9553368}]}, "version": 57}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649749.956762}]}, "version": 58}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.617014408111572, "step": null, "ts": 1652649749.9584072}]}, "version": 59}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649751.0951097}]}, "version": 60}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649751.0970702}]}, "version": 61}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649751.0984323}]}, "version": 62}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649751.099534}]}, "version": 63}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.648545742034912, "step": null, "ts": 1652649751.1010537}]}, "version": 64}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649752.2101245}]}, "version": 65}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649752.2117972}]}, "version": 66}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649752.2133315}]}, "version": 67}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649752.2147987}]}, "version": 68}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.730191230773926, "step": null, "ts": 1652649752.2162502}]}, "version": 69}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649753.2932444}]}, "version": 70}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649753.2947638}]}, "version": 71}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649753.2959616}]}, "version": 72}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649753.2982404}]}, "version": 73}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.663370132446289, "step": null, "ts": 1652649753.299594}]}, "version": 74}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649754.3920853}]}, "version": 75}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649754.3937116}]}, "version": 76}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649754.3967574}]}, "version": 77}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649754.3980143}]}, "version": 78}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.837322235107422, "step": null, "ts": 1652649754.3994377}]}, "version": 79}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 38.8, "step": null, "ts": 1652649754.7373822}]}, "version": 80}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.430431365966797, "step": null, "ts": 1652649754.7373822}]}, "version": 81}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu"], "values": [{"value": 95.0, "step": null, "ts": 1652649754.7373822}]}, "version": 82}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 16.5185546875, "step": null, "ts": 1652649754.7373822}]}, "version": 83}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649755.3858433}]}, "version": 84}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649755.3873138}]}, "version": 85}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649755.3884907}]}, "version": 86}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649755.389633}]}, "version": 87}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.492753505706787, "step": null, "ts": 1652649755.3909879}]}, "version": 88}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649756.2338462}]}, "version": 89}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649756.235905}]}, "version": 90}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649756.2374818}]}, "version": 91}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649756.238897}]}, "version": 92}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.1560187339782715, "step": null, "ts": 1652649756.2402852}]}, "version": 93}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649757.13973}]}, "version": 94}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649757.1418135}]}, "version": 95}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649757.1432436}]}, "version": 96}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649757.1451535}]}, "version": 97}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.395557880401611, "step": null, "ts": 1652649757.1464663}]}, "version": 98}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649758.1039588}]}, "version": 99}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649758.107418}]}, "version": 100}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649758.1086519}]}, "version": 101}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649758.1098928}]}, "version": 102}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.714762210845947, "step": null, "ts": 1652649758.111251}]}, "version": 103}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649759.2088645}]}, "version": 104}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649759.2114449}]}, "version": 105}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649759.2128527}]}, "version": 106}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649759.2143264}]}, "version": 107}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.430902481079102, "step": null, "ts": 1652649759.2157893}]}, "version": 108}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649760.1831326}]}, "version": 109}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649760.1882977}]}, "version": 110}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649760.189837}]}, "version": 111}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649760.194203}]}, "version": 112}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.39522647857666, "step": null, "ts": 1652649760.1957154}]}, "version": 113}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649761.078869}]}, "version": 114}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649761.0801208}]}, "version": 115}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649761.0813954}]}, "version": 116}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649761.0826204}]}, "version": 117}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.6702375411987305, "step": null, "ts": 1652649761.0841625}]}, "version": 118}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649762.1979163}]}, "version": 119}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649762.1996}]}, "version": 120}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649762.2010245}]}, "version": 121}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649762.2022774}]}, "version": 122}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.777008533477783, "step": null, "ts": 1652649762.2037714}]}, "version": 123}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649763.2011566}]}, "version": 124}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649763.2030334}]}, "version": 125}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649763.2044785}]}, "version": 126}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649763.2058945}]}, "version": 127}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 6.0003557205200195, "step": null, "ts": 1652649763.2072513}]}, "version": 128}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649764.193667}]}, "version": 129}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649764.1953113}]}, "version": 130}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649764.1965907}]}, "version": 131}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649764.1980047}]}, "version": 132}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.3724517822265625, "step": null, "ts": 1652649764.1993606}]}, "version": 133}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 41.1, "step": null, "ts": 1652649764.743224}]}, "version": 134}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.419776916503906, "step": null, "ts": 1652649764.743224}]}, "version": 135}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu"], "values": [{"value": 31.0, "step": null, "ts": 1652649764.743224}]}, "version": 136}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 21.0205078125, "step": null, "ts": 1652649764.743224}]}, "version": 137}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649765.2006156}]}, "version": 138}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649765.2022178}]}, "version": 139}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649765.2036076}]}, "version": 140}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649765.205048}]}, "version": 141}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.5583930015563965, "step": null, "ts": 1652649765.207001}]}, "version": 142}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649766.347922}]}, "version": 143}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649766.3495898}]}, "version": 144}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649766.3515456}]}, "version": 145}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649766.3527265}]}, "version": 146}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.429169654846191, "step": null, "ts": 1652649766.3597128}]}, "version": 147}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649767.3509495}]}, "version": 148}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649767.3524215}]}, "version": 149}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649767.353984}]}, "version": 150}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649767.3553946}]}, "version": 151}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.68782377243042, "step": null, "ts": 1652649767.3570433}]}, "version": 152}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649768.2988503}]}, "version": 153}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649768.3008835}]}, "version": 154}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649768.30235}]}, "version": 155}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649768.3037114}]}, "version": 156}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.362456798553467, "step": null, "ts": 1652649768.3050992}]}, "version": 157}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649769.3113549}]}, "version": 158}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649769.3129587}]}, "version": 159}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649769.314351}]}, "version": 160}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649769.315757}]}, "version": 161}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.48409366607666, "step": null, "ts": 1652649769.3171363}]}, "version": 162}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649770.6901104}]}, "version": 163}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649770.6918793}]}, "version": 164}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649770.6930993}]}, "version": 165}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649770.6944346}]}, "version": 166}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.371582508087158, "step": null, "ts": 1652649770.696033}]}, "version": 167}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649771.6992714}]}, "version": 168}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649771.7006164}]}, "version": 169}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649771.7019372}]}, "version": 170}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649771.7030954}]}, "version": 171}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.494283199310303, "step": null, "ts": 1652649771.7044532}]}, "version": 172}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649772.6531658}]}, "version": 173}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649772.6547687}]}, "version": 174}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649772.6562977}]}, "version": 175}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649772.65748}]}, "version": 176}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.622059345245361, "step": null, "ts": 1652649772.6590164}]}, "version": 177}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649773.4719381}]}, "version": 178}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649773.4738555}]}, "version": 179}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649773.4753873}]}, "version": 180}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649773.476584}]}, "version": 181}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.240527153015137, "step": null, "ts": 1652649773.4779944}]}, "version": 182}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649774.292369}]}, "version": 183}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649774.2938266}]}, "version": 184}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649774.295323}]}, "version": 185}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649774.296751}]}, "version": 186}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.458590030670166, "step": null, "ts": 1652649774.298424}]}, "version": 187}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 37.2, "step": null, "ts": 1652649774.7503347}]}, "version": 188}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.376686096191406, "step": null, "ts": 1652649774.7503347}]}, "version": 189}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu"], "values": [{"value": 34.0, "step": null, "ts": 1652649774.7503347}]}, "version": 190}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 26.0986328125, "step": null, "ts": 1652649774.7503347}]}, "version": 191}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649775.3517883}]}, "version": 192}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649775.3534565}]}, "version": 193}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649775.3547912}]}, "version": 194}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649775.3562322}]}, "version": 195}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.3272013664245605, "step": null, "ts": 1652649775.3579257}]}, "version": 196}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649776.3255904}]}, "version": 197}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649776.3272064}]}, "version": 198}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649776.3284037}]}, "version": 199}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649776.3295887}]}, "version": 200}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.04224157333374, "step": null, "ts": 1652649776.3309903}]}, "version": 201}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649777.4246857}]}, "version": 202}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649777.4272811}]}, "version": 203}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649777.4286132}]}, "version": 204}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649777.4300725}]}, "version": 205}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.785677909851074, "step": null, "ts": 1652649777.4316747}]}, "version": 206}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649778.3811574}]}, "version": 207}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649778.3827357}]}, "version": 208}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649778.3839064}]}, "version": 209}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649778.3851666}]}, "version": 210}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.988764762878418, "step": null, "ts": 1652649778.3872206}]}, "version": 211}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649779.3946996}]}, "version": 212}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649779.398653}]}, "version": 213}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649779.4000363}]}, "version": 214}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649779.4014153}]}, "version": 215}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.519525527954102, "step": null, "ts": 1652649779.402904}]}, "version": 216}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649780.6857936}]}, "version": 217}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649780.6906435}]}, "version": 218}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649780.6940606}]}, "version": 219}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649780.70422}]}, "version": 220}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.410524845123291, "step": null, "ts": 1652649780.7146895}]}, "version": 221}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649781.7560215}]}, "version": 222}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649781.7577324}]}, "version": 223}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649781.7592008}]}, "version": 224}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649781.7603722}]}, "version": 225}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.785768508911133, "step": null, "ts": 1652649781.761966}]}, "version": 226}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649783.0422812}]}, "version": 227}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649783.0441227}]}, "version": 228}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649783.046675}]}, "version": 229}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649783.0480595}]}, "version": 230}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.187169075012207, "step": null, "ts": 1652649783.0496929}]}, "version": 231}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649784.0280614}]}, "version": 232}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649784.0297956}]}, "version": 233}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649784.031037}]}, "version": 234}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649784.03243}]}, "version": 235}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.9907402992248535, "step": null, "ts": 1652649784.0340476}]}, "version": 236}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 37.8, "step": null, "ts": 1652649784.7567933}]}, "version": 237}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.346382141113281, "step": null, "ts": 1652649784.7567933}]}, "version": 238}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 26.0986328125, "step": null, "ts": 1652649784.7567933}]}, "version": 239}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649785.071994}]}, "version": 240}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649785.0735986}]}, "version": 241}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649785.0751872}]}, "version": 242}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649785.076535}]}, "version": 243}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 6.106208801269531, "step": null, "ts": 1652649785.078372}]}, "version": 244}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649786.0711577}]}, "version": 245}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649786.0729709}]}, "version": 246}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649786.0742075}]}, "version": 247}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649786.0756361}]}, "version": 248}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 6.190406799316406, "step": null, "ts": 1652649786.077461}]}, "version": 249}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649786.9236026}]}, "version": 250}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649786.9252815}]}, "version": 251}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649786.9266958}]}, "version": 252}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649786.9279857}]}, "version": 253}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.837529182434082, "step": null, "ts": 1652649786.929721}]}, "version": 254}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649787.8689609}]}, "version": 255}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649787.8708577}]}, "version": 256}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649787.8725114}]}, "version": 257}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649787.8737266}]}, "version": 258}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 6.069689750671387, "step": null, "ts": 1652649787.8751063}]}, "version": 259}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649788.8101304}]}, "version": 260}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649788.8118248}]}, "version": 261}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649788.8138576}]}, "version": 262}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649788.8153648}]}, "version": 263}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.596400737762451, "step": null, "ts": 1652649788.8170402}]}, "version": 264}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649789.6775284}]}, "version": 265}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649789.6793547}]}, "version": 266}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649789.6808612}]}, "version": 267}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649789.6822395}]}, "version": 268}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.460995197296143, "step": null, "ts": 1652649789.6835618}]}, "version": 269}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649790.6510918}]}, "version": 270}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649790.6531556}]}, "version": 271}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649790.6544154}]}, "version": 272}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649790.6558635}]}, "version": 273}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.14410924911499, "step": null, "ts": 1652649790.6572351}]}, "version": 274}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649791.6977274}]}, "version": 275}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649791.701865}]}, "version": 276}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649791.7094948}]}, "version": 277}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649791.710826}]}, "version": 278}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.265498638153076, "step": null, "ts": 1652649791.712209}]}, "version": 279}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649792.844758}]}, "version": 280}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649792.8464036}]}, "version": 281}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649792.8476794}]}, "version": 282}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649792.8489337}]}, "version": 283}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.669629096984863, "step": null, "ts": 1652649792.8506505}]}, "version": 284}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649793.9861138}]}, "version": 285}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649793.9877977}]}, "version": 286}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649793.9891279}]}, "version": 287}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649793.9904928}]}, "version": 288}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.989410400390625, "step": null, "ts": 1652649793.9919667}]}, "version": 289}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 37.7, "step": null, "ts": 1652649794.7618465}]}, "version": 290}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.371532440185547, "step": null, "ts": 1652649794.7618465}]}, "version": 291}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 26.0986328125, "step": null, "ts": 1652649794.7618465}]}, "version": 292}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649794.9911315}]}, "version": 293}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649794.9928188}]}, "version": 294}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649794.9942353}]}, "version": 295}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649794.995655}]}, "version": 296}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.176788806915283, "step": null, "ts": 1652649794.9970384}]}, "version": 297}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649796.0069551}]}, "version": 298}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649796.008353}]}, "version": 299}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649796.0097656}]}, "version": 300}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649796.0113332}]}, "version": 301}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.853622913360596, "step": null, "ts": 1652649796.0125813}]}, "version": 302}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649797.0532093}]}, "version": 303}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649797.0548449}]}, "version": 304}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649797.0563183}]}, "version": 305}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649797.057521}]}, "version": 306}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.501665115356445, "step": null, "ts": 1652649797.0590956}]}, "version": 307}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649798.0994778}]}, "version": 308}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649798.1036303}]}, "version": 309}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649798.1048732}]}, "version": 310}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649798.105994}]}, "version": 311}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.058699607849121, "step": null, "ts": 1652649798.1081877}]}, "version": 312}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649799.07658}]}, "version": 313}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649799.0782204}]}, "version": 314}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649799.079444}]}, "version": 315}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649799.080621}]}, "version": 316}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.365944862365723, "step": null, "ts": 1652649799.0819662}]}, "version": 317}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649800.105364}]}, "version": 318}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649800.1071756}]}, "version": 319}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649800.1095338}]}, "version": 320}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649800.1108723}]}, "version": 321}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.192387104034424, "step": null, "ts": 1652649800.112512}]}, "version": 322}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649800.9992397}]}, "version": 323}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649801.0007782}]}, "version": 324}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649801.0020413}]}, "version": 325}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649801.003288}]}, "version": 326}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.785126686096191, "step": null, "ts": 1652649801.0046437}]}, "version": 327}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649802.1338696}]}, "version": 328}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649802.136196}]}, "version": 329}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649802.137339}]}, "version": 330}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649802.1394763}]}, "version": 331}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.694211959838867, "step": null, "ts": 1652649802.1409955}]}, "version": 332}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649803.1017818}]}, "version": 333}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649803.1034071}]}, "version": 334}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649803.1058047}]}, "version": 335}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649803.1092787}]}, "version": 336}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.011359214782715, "step": null, "ts": 1652649803.1144207}]}, "version": 337}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649804.0848567}]}, "version": 338}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649804.0864484}]}, "version": 339}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649804.0878732}]}, "version": 340}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649804.0892642}]}, "version": 341}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.988593101501465, "step": null, "ts": 1652649804.0913467}]}, "version": 342}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 38.7, "step": null, "ts": 1652649804.767329}]}, "version": 343}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.348014831542969, "step": null, "ts": 1652649804.767329}]}, "version": 344}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 26.0986328125, "step": null, "ts": 1652649804.767329}]}, "version": 345}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649805.0619445}]}, "version": 346}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649805.063736}]}, "version": 347}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649805.065144}]}, "version": 348}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649805.0664322}]}, "version": 349}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.056690692901611, "step": null, "ts": 1652649805.0678506}]}, "version": 350}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649806.113804}]}, "version": 351}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649806.1156054}]}, "version": 352}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649806.116863}]}, "version": 353}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649806.1182446}]}, "version": 354}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.136460304260254, "step": null, "ts": 1652649806.1197903}]}, "version": 355}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649807.0352829}]}, "version": 356}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649807.0371397}]}, "version": 357}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649807.0384119}]}, "version": 358}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649807.039678}]}, "version": 359}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.660511493682861, "step": null, "ts": 1652649807.0411437}]}, "version": 360}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649808.0169923}]}, "version": 361}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649808.0186694}]}, "version": 362}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649808.020085}]}, "version": 363}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649808.021866}]}, "version": 364}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.139598846435547, "step": null, "ts": 1652649808.0233314}]}, "version": 365}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649808.8844292}]}, "version": 366}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649808.8859909}]}, "version": 367}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649808.8872962}]}, "version": 368}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649808.8886995}]}, "version": 369}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.874765396118164, "step": null, "ts": 1652649808.8901446}]}, "version": 370}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649809.7752473}]}, "version": 371}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649809.7769496}]}, "version": 372}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649809.7781942}]}, "version": 373}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649809.779387}]}, "version": 374}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.519289493560791, "step": null, "ts": 1652649809.781028}]}, "version": 375}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649810.7600107}]}, "version": 376}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649810.7615693}]}, "version": 377}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649810.762789}]}, "version": 378}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649810.764401}]}, "version": 379}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.167239665985107, "step": null, "ts": 1652649810.765959}]}, "version": 380}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649811.7396946}]}, "version": 381}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649811.7414336}]}, "version": 382}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649811.7428606}]}, "version": 383}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649811.7442038}]}, "version": 384}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.32023286819458, "step": null, "ts": 1652649811.7457163}]}, "version": 385}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649812.646334}]}, "version": 386}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649812.6479943}]}, "version": 387}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649812.6491668}]}, "version": 388}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649812.650374}]}, "version": 389}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.546831130981445, "step": null, "ts": 1652649812.651724}]}, "version": 390}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649813.6233582}]}, "version": 391}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649813.6265168}]}, "version": 392}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649813.6298957}]}, "version": 393}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649813.631066}]}, "version": 394}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.548604488372803, "step": null, "ts": 1652649813.632685}]}, "version": 395}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649814.545518}]}, "version": 396}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649814.5472383}]}, "version": 397}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649814.5486813}]}, "version": 398}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649814.5499682}]}, "version": 399}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.0849456787109375, "step": null, "ts": 1652649814.551347}]}, "version": 400}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 37.1, "step": null, "ts": 1652649814.7722864}]}, "version": 401}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.520660400390625, "step": null, "ts": 1652649814.7722864}]}, "version": 402}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu"], "values": [{"value": 95.0, "step": null, "ts": 1652649814.7722864}]}, "version": 403}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory"], "values": [{"value": 26.0986328125, "step": null, "ts": 1652649814.7722864}]}, "version": 404}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649815.7351341}]}, "version": 405}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649815.736807}]}, "version": 406}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649815.7380495}]}, "version": 407}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649815.7392938}]}, "version": 408}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.184953212738037, "step": null, "ts": 1652649815.7407951}]}, "version": 409}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649816.7159111}]}, "version": 410}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649816.717483}]}, "version": 411}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649816.7187374}]}, "version": 412}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649816.7208574}]}, "version": 413}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.619445323944092, "step": null, "ts": 1652649816.7222688}]}, "version": 414}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649817.6539202}]}, "version": 415}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649817.6575818}]}, "version": 416}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649817.6588628}]}, "version": 417}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649817.6604705}]}, "version": 418}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.591500282287598, "step": null, "ts": 1652649817.6624079}]}, "version": 419}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649818.773174}]}, "version": 420}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649818.775157}]}, "version": 421}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649818.7766464}]}, "version": 422}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649818.778083}]}, "version": 423}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 6.023227691650391, "step": null, "ts": 1652649818.7797568}]}, "version": 424}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649819.699218}]}, "version": 425}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649819.7010472}]}, "version": 426}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649819.7023268}]}, "version": 427}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649819.703917}]}, "version": 428}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.453997611999512, "step": null, "ts": 1652649819.7053473}]}, "version": 429}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649820.6148596}]}, "version": 430}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649820.6165922}]}, "version": 431}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649820.6178746}]}, "version": 432}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649820.6190498}]}, "version": 433}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 4.814584732055664, "step": null, "ts": 1652649820.620496}]}, "version": 434}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649821.7289271}]}, "version": 435}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649821.7305026}]}, "version": 436}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649821.7318754}]}, "version": 437}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649821.7330186}]}, "version": 438}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.003604412078857, "step": null, "ts": 1652649821.734448}]}, "version": 439}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649822.7345433}]}, "version": 440}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649822.7362564}]}, "version": 441}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649822.7377062}]}, "version": 442}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649822.7388897}]}, "version": 443}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.225910663604736, "step": null, "ts": 1652649822.7402647}]}, "version": 444}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649823.7555294}]}, "version": 445}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649823.7571344}]}, "version": 446}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649823.7583067}]}, "version": 447}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649823.7597535}]}, "version": 448}
+{"obj": {"type": "LogFloats", "path": ["train loss"], "values": [{"value": 5.492881774902344, "step": null, "ts": 1652649823.7618043}]}, "version": 449}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8, 308])", "step": null, "ts": 1652649824.6953583}]}, "version": 450}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652649824.6972167}]}, "version": 451}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "torch.Size([8])", "step": null, "ts": 1652649824.6988628}]}, "version": 452}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652649824.7001364}]}, "version": 453}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "traceback"], "values": [{"value": "An uncaught exception occurred while run was active on worker e5-cse-314-01.", "step": null, "ts": 1652649824.708477}, {"value": "Marking run as failed", "step": null, "ts": 1652649824.708477}, {"value": "Traceback:", "step": null, "ts": 1652649824.708477}, {"value": "  File \"train.py\", line 80, in <module>\n    acc = torch.sum(label == prediction).cpu() / 8\n", "step": null, "ts": 1652649824.708477}, {"value": "CUDA error: device-side assert triggered", "step": null, "ts": 1652649824.708477}, {"value": "CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.", "step": null, "ts": 1652649824.708477}, {"value": "For debugging consider passing CUDA_LAUNCH_BLOCKING=1.", "step": null, "ts": 1652649824.708477}]}, "version": 454}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": true}, "version": 455}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "Traceback (most recent call last):\n", "step": null, "ts": 1652649824.7110164}]}, "version": 456}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"train.py\", line 80, in <module>\n", "step": null, "ts": 1652649824.7122161}]}, "version": 457}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652649824.7138095}]}, "version": 458}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "acc = torch.sum(label == prediction).cpu() / 8", "step": null, "ts": 1652649824.7152889}]}, "version": 459}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652649824.7164915}]}, "version": 460}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "RuntimeError", "step": null, "ts": 1652649824.717959}]}, "version": 461}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": ": ", "step": null, "ts": 1652649824.719071}]}, "version": 462}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.", "step": null, "ts": 1652649824.7204278}]}, "version": 463}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652649824.7217734}]}, "version": 464}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "", "step": null, "ts": 1652649824.7230048}]}, "version": 465}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Shutting down background jobs, please wait a moment...\n", "step": null, "ts": 1652649824.7242906}]}, "version": 466}
